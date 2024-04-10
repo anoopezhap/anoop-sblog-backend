@@ -4,7 +4,6 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { createComment, getPostCommentsById } from "../api/commentApi";
-import { get } from "mongoose";
 import Comment from "./Comment";
 
 function CommentSection({ commentsData, postId }) {
