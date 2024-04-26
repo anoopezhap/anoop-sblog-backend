@@ -22,18 +22,18 @@ export default function FooterComp() {
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="https://yourrepairs.onrender.com/"
+                  href="https://anoopsai.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Repair Store
+                  AI Image Generator
                 </Footer.Link>
                 <Footer.Link
-                  href="/about"
+                  href="https://anoopschatapp.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Anoop's Blog
+                  React Chat App
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
