@@ -6,8 +6,17 @@ function CallToAction() {
       <div className="flex-1 justify-center flex flex-col">
         <h2 className="text-2xl">Want to learn more about me!?</h2>
         <p className="text-gray-500 my-2 ">Check out my personal website</p>
-        <Button gradientDuoTone="purpleToPink" disabled={true}>
-          Click me
+        <Button
+          gradientDuoTone="purpleToPink"
+          className="rounded-tl-xl rounded-bl-none"
+        >
+          <a
+            href="https://anoopjoseph.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Anoop Joseph
+          </a>
         </Button>
       </div>
       <div className="p-7 flex-1">
